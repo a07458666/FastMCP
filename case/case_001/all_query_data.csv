@@ -1,0 +1,3 @@
+wafer_id,Value,is_nce_alarm,goodbad
+w001,1,0,1
+w002,2,0,0
