@@ -9,7 +9,7 @@ from google import genai
 import re
 
 
-llm_client = genai.Client(api_key="AIzaSyBMCabBfvTIfiHVYYcpbJjrqfDwnEFV82s")
+llm_client = genai.Client(api_key="KEY")
 
 async def log_handler(message: LogMessage):
     print(f"Server log: {message.data}")
